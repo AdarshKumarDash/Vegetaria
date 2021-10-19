@@ -1,0 +1,52 @@
+.head_name {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Leafy_Green {
+    border-radius: 5px;
+    border: 2px black;
+    margin-left: 13px;
+    margin-top: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Leafy_Green:hover {
+    background-color: lightgray;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.modal-body img {
+    display: inline-block;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-body p a:hover {
+    text-decoration: none;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
